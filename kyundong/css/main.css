@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: pink;
 }
 
 /* #header h1 - 로고 */
