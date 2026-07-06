@@ -1,0 +1,280 @@
+body {
+    min-width: 1200px;
+    background: #fff;
+    color: #333;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 150px;
+    background: #fff;
+}
+
+#header .inner {
+    position: relative;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.logo a {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #d8d8d8;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.gnb {
+    position: absolute;
+    left: 360px;
+    top: 72px;
+}
+
+.gnb ul {
+    display: flex;
+    gap: 70px;
+}
+
+.gnb a {
+    font-size: 16px;
+    color: #333;
+}
+
+.util {
+    position: absolute;
+    right: 0;
+    top: 17px;
+    display: flex;
+    gap: 18px;
+}
+
+.util a {
+    font-size: 13px;
+    color: #333;
+}
+
+#subVisual {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url('../images/main01_pc.jpg') center 48% / cover no-repeat;
+}
+
+#subVisual h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#content {
+    padding: 155px 0 150px;
+}
+
+.titleBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #111;
+}
+
+.titleBox p {
+    color: #83c9ec;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.titleBox h3 {
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.titleBox span {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+em {
+    color: #ee6d4f;
+    font-style: normal;
+}
+
+legend {
+    position: absolute;
+    left: -9999px;
+}
+
+.joinForm {
+    font-size: 15px;
+}
+
+.joinForm input,
+.joinForm select,
+.joinForm button {
+    box-sizing: border-box;
+    height: 29px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #555;
+    font-family: inherit;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.joinForm input {
+    width: 180px;
+    padding: 0 8px;
+}
+
+.joinForm select {
+    width: 180px;
+    padding-left: 8px;
+}
+
+.formRow {
+    display: flex;
+    min-height: 41px;
+    align-items: center;
+}
+
+.formRow.line {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.formRow > label {
+    width: 200px;
+    flex-shrink: 0;
+    color: #555;
+}
+
+.formRow.short input {
+    width: 180px;
+}
+
+.fieldGroup,
+.emailGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fieldGroup p {
+    margin-left: 5px;
+    color: #444;
+}
+
+.smallBtn {
+    min-width: 78px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.emailGroup input {
+    width: 180px;
+}
+
+.emailGroup span {
+    color: #333;
+    font-weight: 700;
+}
+
+.address {
+    align-items: flex-start;
+    padding-top: 4px;
+}
+
+.address > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    gap: 7px;
+}
+
+.address input:first-child {
+    width: 110px;
+}
+
+.address input:last-child {
+    width: 650px;
+}
+
+.agreeRow {
+    display: flex;
+    min-height: 72px;
+    padding: 14px 0;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.agreeRow strong {
+    width: 200px;
+    flex-shrink: 0;
+    color: #555;
+    font-weight: 400;
+}
+
+.agreeRow p {
+    margin-bottom: 12px;
+}
+
+.agreeRow label {
+    margin-right: 130px;
+}
+
+.agreeRow input[type='checkbox'] {
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+}
+
+.agreeRow.brand {
+    border-bottom: 1px solid #ddd;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.btnBox button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #999;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnBox .cancel {
+    background: #fff;
+    color: #333;
+}
+
+.btnBox .submit {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+#footer {
+    height: 300px;
+    background: #333;
+}
